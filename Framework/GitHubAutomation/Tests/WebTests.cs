@@ -131,7 +131,7 @@ namespace GitHubAutomation.Tests
                 FindBookingPage booking = new FindBookingPage(Driver);
                 booking.GoToPage();
                 logger.Log("Test- Search with empty surname(Rise error to take screen ), time: ");
-                Assert.AreEqual("Introduce tus apellido", booking.FindBookingWithEmptySurname(InAccessibleBookingCreator.WithWronBooking()));
+                Assert.AreEqual("Introduce tus apellidos", booking.FindBookingWithEmptySurname(InAccessibleBookingCreator.WithWronBooking()));
             });
         }
 
@@ -144,7 +144,7 @@ namespace GitHubAutomation.Tests
                 FindBookingPage booking = new FindBookingPage(Driver);
                 booking.GoToPage();
                 logger.Log("Test- Search with wrong surname(Rise error to take screen), time: ");
-                Assert.AreEqual("Introduce tu número de confirmació", booking.FindBookingWithWrongSurname(InAccessibleBookingCreator.WithWronBooking()));
+                Assert.AreEqual("Introduce tu número de confirmación", booking.FindBookingWithWrongSurname(InAccessibleBookingCreator.WithWronBooking()));
             });
         }
     }
