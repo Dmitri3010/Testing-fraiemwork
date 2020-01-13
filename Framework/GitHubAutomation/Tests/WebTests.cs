@@ -1,15 +1,6 @@
-﻿using System;
-using System.Text;
-using System.Linq;
-using NUnit.Framework;
-using GitHubAutomation.Driver;
+﻿using NUnit.Framework;
 using GitHubAutomation.Pages;
 using GitHubAutomation.Services;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Chrome;
-using OpenQA.Selenium.Support.UI;
-using OpenQA.Selenium.Support.PageObjects;
-using OpenQA.Selenium.Support.Extensions;
 
 namespace GitHubAutomation.Tests
 {
